@@ -12,26 +12,27 @@ body{
 .navbar{
   width:100%;
   height:80px;
-  background-color: coral;
+  background-color: rgb(238, 235, 235);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
 
 .navbar .links{
 font-size: 25px;
-color: white;
+color: rgb(105, 103, 103);
 
 }
 .links a{
 margin: 10px;
 text-decoration: none;
-color: white;
+color: rgb(185, 183, 183);
 }
 
 .links a:hover{
   cursor: pointer;
-  font-weight: bold;
+  font-weight:bold;
 }
 
 .uploadPost{
@@ -41,7 +42,8 @@ color: white;
   align-items: center;
   height: 500px;
   width: 500px;
-  border: 2px solid coral;
+  padding-top: 100px;
+  /* border: 2px solid rgb(245, 170, 8); */
 }
 
 .CreatePost {
@@ -81,12 +83,12 @@ button{
   width: 60%;
   max-width: 50%;
   padding:30px;
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: lightblue;
-  box-shadow: 2px 1px 8px black;
+  box-shadow: 2px 1px 8px rgb(199, 193, 193);
   border:1px solid lightslategrey
 }
 
@@ -118,6 +120,15 @@ button{
   width:13%;
   float: left;
   margin-bottom: 10px;
+}
+
+.pageno{
+  width: 100%;
+  /* background-color: blueviolet; */
+  justify-content: center;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: center;
 }
 
 
